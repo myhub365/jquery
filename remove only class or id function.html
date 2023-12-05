@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjquery.js"></script>
+    
+    <script>
+    
+$(document).ready(function(){
+  $(".hide").click(function(){
+    $("h1").remove(".move");
+  });
+});
+
+
+        </script>
+</head>
+<body>
+  
+<button class="hide">HIDE</button>
+
+
+
+<div>
+    <h1>HELO</h1>
+    <h1 class="move">HELO1</h1>
+    <h1>HELO2</h1>
+    <h1 class="move">HELO3</h1>
+</div>
+</body>
+</html>

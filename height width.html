@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjquery.js"></script>
+    
+    <script>
+    
+  
+
+$(document).ready(function(){
+  $("button").mouseenter(function(){
+    $("p").css({"background-color":"yellow","color":"blue","margin-left":"300px","transition":"2s"});
+  
+  });
+  
+   $("button").mouseleave(function(){
+    $("p").css({"background-color":"yellow","color":"blue","margin-left":"0px","transition":"5s"});
+  
+  });
+});
+
+        </script>
+</head>
+<body>
+  
+<script>
+    $(document).ready(function(){
+  $(".size").mouseenter(function(){
+    $(".gol").width(400).height(400).css({"background":"blue" , "font-size":"200%" , "color":"green" ,"margin-left":"400px","transition":"1s"});
+  });
+});
+
+$(document).ready(function(){
+  $(".size").mouseleave(function(){
+    $(".gol").width(200).height(200).css({"background":"blue" , "font-size":"200%" , "color":"green" ,"margin-left":"0px","transition":"5s","border-radius": "100%"});
+  });
+});
+</script>
+<center>
+<button class="size">500px by 500px</button></center>
+
+    <div style="height: 300px;width: 300px;background-color: red;;
+    border: 5px dashed purple;margin-top: 200px;float: left;" class="gol"></div>
+
+
+<div style="height: 300px;width: 300px;background-color: red;;
+    border: 5px dashed purple;margin-top: 200px;float: left;" class="gol"></div>
+
+
+<div style="height: 300px;width: 300px;background-color: red;;
+    border: 5px dashed purple;margin-top: 200px;float: left;" class="gol"></div>
+
+
+
+<div style="height: 300px;width: 300px;background-color: red;;
+    border: 5px dashed purple;margin-top: 200px;float: left;" class="gol"></div>
+
+
+</body>
+</html>

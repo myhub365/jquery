@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjquery.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+          $(".car").click(function(){
+            $("#div1").remove();
+          });
+        });
+        
+        $(document).ready(function(){
+          $(".bike").click(function(){
+            $("#div2").remove();
+          });
+        });
+        </script>
+</head>
+<body>
+   <button class="car">CAR</button>
+
+    <div id="div1">
+        <h1>bmw</h1>
+        <h1>audi</h1>
+        <h1>funti</h1>
+    </div>
+
+
+    <button class="bike">bike</button>
+
+    <div id="div2">
+        <h1>yamaya</h1>
+        <h1>duke</h1>
+        <h1>splendor</h1>
+    </div>
+</body>
+</html>
